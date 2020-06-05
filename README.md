@@ -2,7 +2,7 @@
 This program `clean_room.py` takes an input file such as `input.txt` that should be in the same directory as the program.
 
 ## Requirements:
-python version 3.8=  
+python version 3.8  
 
 ## Directions:
 Please clone this directory using the following command:  
