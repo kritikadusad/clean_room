@@ -16,9 +16,34 @@ Once you are in the directory `clean_room`, please run the following command to 
 
 The program uses `input.txt` file in the same directory as input.   
 
+## Input
+
+Program input will be received in a file with the format described here. 
+
+Example:
+
+```
+5 5
+1 2
+1 0
+2 2
+2 3
+NNESEESWNWW
+```
+
+* the first line holds the room dimensions (X Y), separated by a single space (all coordinates will be presented in this format)
+* the second line holds the hoover position
+* subsequent lines contain the zero or more positions of patches of dirt (one per line)
+* the next line then always contains the driving instructions (at least one)
+
+## Output
 You should get the following output:  
-`1 3`  
-`1`  
+```
+1 3  
+1
+```
+
+## Custom input/ loglevel
 
 For more instructions, you can do the following:  
 `python3 clean_room -h`
